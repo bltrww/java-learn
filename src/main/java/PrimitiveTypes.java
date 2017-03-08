@@ -35,6 +35,24 @@ public class PrimitiveTypes {
         //принимает только два возможных значения - true и false
         boolean log = false;
         System.out.println(log);
+
+
         //есть еще два вида данных byte и short (целочисленные)
+
+
+
+        //если мы используем примитивные типы данных в выражении, то можно не объявлять для меня переменную
+
+        int result = 3 + 5;
+
+        int three = 3;
+
+        int five = 5;
+
+        int eight = three + five;
+
+   //у всех примитивных типов данных есть значение по умолчанию
+
+
     }
 }
