@@ -17,8 +17,8 @@ public class TryUseMethod {
 
         //для вызова нестатичных методов классов необходимо создать экземпляр класса через конструктор
         //пример объявления класса с конструктором по умолчанию
-        ClassLesson classLesson = new ClassLesson();
-        int defualtValue = classLesson.returnDefaultIntValue();
+        ClassLesson myClassLesson = new ClassLesson();
+        int defualtValue = myClassLesson.returnDefaultIntValue();
         System.out.println(defualtValue);
     }
 }
@@ -31,6 +31,7 @@ class Measurements {
 
     class Example {
         public static void main(String[] args) {
+            mobilePhone(9041913159L);
             Measurements Measurement1 = new Measurements();
             Measurements Measurement2 = new Measurements();
             float weight;
@@ -48,4 +49,15 @@ class Measurements {
             System.out.println(weight);
 
         }
+        public static long mobilePhone (long phoneNumber){
+            return phoneNumber;
+
+        }
+
+
+
+
+
+
+
     }
